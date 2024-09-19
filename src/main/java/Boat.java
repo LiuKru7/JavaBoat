@@ -88,7 +88,7 @@ public class Boat {
 
         System.out.println("\n\nModel: " + model);
         System.out.println("Engine: " + engine + "cc");
-        System.out.println("Weight: " + weight + "cm");
+        System.out.println("Weight: " + weight + "kg");
         System.out.println("Height: " + height + "cm");
         System.out.println("Boat name: " + boatName);
         System.out.println("Engine on: " + engineOn);
