@@ -5,14 +5,16 @@ public class ChooseBoat {
 
     public static void chooseBoat() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Choose your boat model:  (1, 2 or 3): ");
+        System.out.println("Choose your boat model:  (1, 2 , 3 or 4): ");
             System.out.println(BoatsInfo.boats[0].getModel());
             System.out.println(BoatsInfo.boats[1].getModel());
             System.out.println(BoatsInfo.boats[2].getModel());
+            System.out.println(BoatsInfo.boats[3].getModel());
+
         chooseBoat = scanner.nextInt();
 
 
-            if (chooseBoat >= 1 && chooseBoat <= 3) {
+            if (chooseBoat >= 1 && chooseBoat <= 4) {
                 System.out.println("Your choose :");
                 BoatsInfo.boats[chooseBoat - 1].printDetails();
             } else {
